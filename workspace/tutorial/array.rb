@@ -39,5 +39,5 @@ p inst_section['guitar']
 
 histogram = Hash.new(0)
 histogram['ruby'] # => 0
-histogram['ruby'] histogram['ruby'] + 1
+histogram['ruby'] = histogram['ruby'] + 1
 histogram['ruby'] # => 1 
